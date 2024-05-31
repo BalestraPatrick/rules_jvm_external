@@ -52,9 +52,9 @@ def rules_jvm_external_deps(
             http_archive,
             name = "rules_java",
             urls = [
-                "https://github.com/bazelbuild/rules_java/releases/download/7.3.2/rules_java-7.3.2.tar.gz",
+                "https://github.com/bazelbuild/rules_java/releases/download/7.6.1/rules_java-7.6.1.tar.gz",
             ],
-            sha256 = "3121a00588b1581bd7c1f9b550599629e5adcc11ba9c65f482bbd5cfe47fdf30",
+            sha256 = "282459d94060a94371dfb7d03e05fa28f3e06a30f84afc811d32a0e69951ac54",
         )
 
     maven_install(
